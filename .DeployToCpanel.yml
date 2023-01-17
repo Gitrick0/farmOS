@@ -1,0 +1,4 @@
+deployment: null
+tasks:
+  - export DEPLOYPATH=/home/blovaddm/public_html/farmOS
+  - /bin/cp -r * $DEPLOYPATH
